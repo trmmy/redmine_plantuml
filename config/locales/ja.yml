@@ -1,0 +1,5 @@
+ja:
+  label_plantuml_java_home_location: JAVA_HOMEの場所
+  label_plantuml_plantuml_jar_location: PlantUMLのjarの配置場所
+  label_plantuml_dot_file_location: Graphvizのdotファイルの配置場所
+  label_plantuml_font_name: 利用するフォント名の指定

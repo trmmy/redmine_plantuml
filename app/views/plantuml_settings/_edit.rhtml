@@ -1,0 +1,31 @@
+<p>
+  <label>
+    <%=h l(:label_plantuml_plantuml_jar_location)%>
+  </label>
+  <%= text_field_tag "settings[plantuml_jar]", @settings['plantuml_jar'], :size=>'60'  %>
+  <em>URL http://plantuml.sourceforge.net/index.html</em>
+</p>
+
+<p>
+  <label>
+    <%=h l(:label_plantuml_java_home_location)%>
+  </label>
+  <%= text_field_tag "settings[java_home]", @settings['java_home'], :size=>'60' %>
+  <em>URL www.java.com</em>
+</p>
+
+<p>
+  <label>
+    <%=h l(:label_plantuml_dot_file_location)%>
+  </label>
+  <%= text_field_tag "settings[dot]", @settings['dot'], :size=>'60'  %>
+  <em>URL http://www.graphviz.org/</em>
+</p>
+
+<p>
+  <label>
+    <%=h l(:label_plantuml_font_name)%>
+  </label>
+  <%= text_field_tag "settings[font]", @settings['font'], :size=>'40'  %>
+</p>
+
